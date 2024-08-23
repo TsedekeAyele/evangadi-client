@@ -3,7 +3,7 @@ import axios from "axios";
 
 // creates a default base URL for all requests made with this axios instance
 const axiosBase = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://evangadi-backend.vercel.app/api",
 });
 
 export default axiosBase;
